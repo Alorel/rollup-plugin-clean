@@ -1,6 +1,6 @@
 {
   "name": "@alorel/rollup-plugin-clean",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Cleans the output dir of a rollup build",
   "main": "index.js",
   "repository": "https://github.com/Alorel/rollup-plugin-clean.git",
