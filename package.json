@@ -1,0 +1,34 @@
+{
+  "name": "@alorel/rollup-plugin-clean",
+  "version": "0.0.0",
+  "description": "Cleans the output dir of a rollup build",
+  "main": "index.js",
+  "repository": "https://github.com/Alorel/rollup-plugin-clean.git",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "author": "Arturas Molcanovas <a.molcanovas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "peerDependencies": {
+    "rollup": "^2.6.0 || ^1.30.0"
+  },
+  "devDependencies": {
+    "@alorel-personal/conventional-changelog-alorel": "^2.1.2",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.5",
+    "@semantic-release/npm": "^7.0.5",
+    "rollup": "^2.6.1",
+    "semantic-release": "^17.0.6"
+  },
+  "dependencies": {
+    "del": "^5.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/alorel"
+  }
+}
